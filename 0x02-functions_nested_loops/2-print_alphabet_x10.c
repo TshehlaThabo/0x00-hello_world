@@ -12,9 +12,9 @@ void print_alphabet_x10(void)
 
 	while ((i <= 9) && (c <= 'z'))
 	{
-		putchar(c);
+		_putchar(c);
 		c++;
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }

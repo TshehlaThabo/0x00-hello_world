@@ -10,7 +10,7 @@
 
 void print_square(int size)
 {
-	int row, int column;
+	int row, column;
 
 	for (row = 1; row <= size; ++row)
 	{

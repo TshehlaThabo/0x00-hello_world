@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 
 /**
  * factorial - a function that finds the factorial of *n

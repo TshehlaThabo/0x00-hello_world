@@ -3,7 +3,6 @@
 int find_strlen(char *s);
 int check_palindrome(char *s, int len, int index);
 
-
 /**
  * find_strlen - Returns the length of a string.
  *
@@ -16,7 +15,7 @@ int find_strlen(char *s)
 {
 	int len = 0;
 
-	if (*(s + len)) 
+	if (*(s + len))
 	{
 		len++;
 		len += find_strlen(s + len);

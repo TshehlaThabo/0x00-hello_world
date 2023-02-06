@@ -7,7 +7,9 @@
  * @file_to: file_to.
  * @argv: arguments vector.
  * Return: no return.
+ *
  */
+
 void error_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
@@ -21,8 +23,9 @@ void error_file(int file_from, int file_to, char *argv[])
 		exit(98);
 	}
 }
+
 /**
- * main - check the code for Holberton School students.
+ * main - check the code for  students.
  * @argc: number of arguments.
  * @argv: arguments vector.
  * Return: Always 0.
